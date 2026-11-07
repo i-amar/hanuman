@@ -4,6 +4,9 @@ A 3D browser action-platformer retelling the Ramayana, starting with the Sundara
 (Hanuman's leap to Lanka, finding Sita in Ashoka Vatika, Lanka Dahan). Inspired by the
 Kamba Ramayanam. Plays on phone (touch) and desktop (keyboard). Free on GitHub Pages.
 
+- Local path: ~/workspace/raavan/hanuman
+- Repo: https://github.com/i-amar/hanuman  ·  Live: https://i-amar.github.io/hanuman/
+
 ## Stack
 - Vite + vanilla JS (ES modules) + three.js. No frameworks, no TypeScript for now.
 - Models: GLB via GLTFLoader (+ DRACOLoader). Animations: AnimationMixer.
@@ -19,7 +22,8 @@ Kamba Ramayanam. Plays on phone (touch) and desktop (keyboard). Free on GitHub P
 - src/main.js and shared interfaces in src/core/ -> lead session only
 
 ## Reference
-- prototype/index.html is the working single-file prototype. Port its behaviour faithfully:
+- prototype/index.html is the working single-file prototype (committed; open it directly in a
+  browser to play it). Do not confuse it with the root index.html, which is Vite's entry page. Port its behaviour faithfully:
   same level layout, jump/double-jump/leap numbers, combat timings, phases and dialogue.
 
 ## Rules
